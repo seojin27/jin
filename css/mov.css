@@ -6,7 +6,7 @@
 
 
 
-#modal01, #modal02, #modal03, #modal-img {   /*배경 어둡게*/
+#modal01, #modal02, #modal03{   /*배경 어둡게*/
     width:100%;
     height:100%;
     position:fixed;
@@ -17,7 +17,7 @@
    
     display:none;
 }
-#modal01.active, #modal02.active, #modal03.active, #modal-img.active{
+#modal01.active, #modal02.active, #modal03.active{
     display:block;
 
 }
@@ -32,16 +32,6 @@ margin:0 auto;
 
 .music>video { 
     max-width: 100%; display: block; margin: 100px auto; }
-
-.m-img{
-        width:80%;
-        margin:0 auto;
-        overflow-y:scroll;
-        }
-
-.m-img>img { 
-    
- max-width: 588px; display: block; margin: 200px auto; }
 
 .btn {
     height:30px;

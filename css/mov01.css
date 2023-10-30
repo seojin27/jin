@@ -1,0 +1,128 @@
+﻿@charset "utf-8";
+
+
+/*album*/
+
+
+
+
+#modal01, #modal02, #modal03{   /*배경 어둡게*/
+    width:100%;
+    height:100%;
+    position:fixed;
+    left:0px;
+    top:0px;
+    background-color: rgba(0,0,0,0.8);
+    z-index:5000;
+    display:none;
+}
+#modal01.active, #modal02.active, #modal03.active{
+    display:block;
+
+}
+
+.modal_up{
+    width:800px;
+    
+    position:fixed;
+    left:50%;
+    top:50%;
+    /*margin:-200px -250px;*/
+    transform: translate(-50%,-50%);
+    /*background-color:rgb(0, 0, 0);*/
+}
+
+.uptitle{
+    margin-top:10px;
+    text-align:center;
+    line-height: 20px;  /*행간*/
+    font-size:20px;
+    font-weight: bold;
+    color:#fff
+}
+
+.video{
+
+width:90%;
+margin:0 auto;
+
+}
+
+video { max-width: 100%; display: block; margin: 20px auto; }
+
+.btn {
+    height:25px;
+    width:25px;    
+    cursor:pointer;   
+    border-radius:20px;
+    color:#fff;
+    position:absolute;
+    right:10%;
+    top:15px;
+    border:solid 2px #fff;
+}
+
+.btn a{
+    text-align:center;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    margin-top:4px;
+    color:#fff;
+}
+
+
+
+
+@media all and (max-width:800px) {
+
+.modal_up{
+    width:500px;    
+    position:fixed;
+    left:50%;
+    top:50%;
+    /*margin:-200px -250px;*/
+    transform: translate(-50%,-50%);
+    /*background-color:rgb(0, 0, 0);*/
+}
+
+.uptitle{
+    margin-top:10px;
+    text-align:center;
+    line-height: 20px;  /*행간*/
+    font-size:20px;
+    font-weight: bold;
+    color:#fff
+}
+
+.video{
+
+width:90%;
+margin:0 auto;
+
+}
+
+video { max-width: 100%; display: block; margin: 20px auto; }
+
+.btn {
+    height:25px;
+    width:25px;    
+    cursor:pointer;   
+    border-radius:20px;
+    color:#fff;
+    position:absolute;
+    right:5%;
+    top:15px;
+    border:solid 2px #fff;
+}
+
+.btn a{
+    text-align:center;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    margin-top:4px;
+    color:#fff;
+}
+
+}
