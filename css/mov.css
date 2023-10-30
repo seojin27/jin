@@ -1,0 +1,61 @@
+﻿@charset "utf-8";
+
+
+/*album*/
+
+
+
+
+#modal01, #modal02, #modal03, #modal-img {   /*배경 어둡게*/
+    width:100%;
+    height:100%;
+    position:fixed;
+    left:0px;
+    top:0px;
+    background-color: rgba(0,0,0,0.8);
+    z-index:10000;
+   
+    display:none;
+}
+#modal01.active, #modal02.active, #modal03.active, #modal-img.active{
+    display:block;
+
+}
+
+
+
+
+.music{
+width:90%;
+margin:0 auto;
+}
+
+.music>video { 
+    max-width: 100%; display: block; margin: 100px auto; }
+
+.m-img{
+        width:80%;
+        margin:0 auto;
+        overflow-y:scroll;
+        }
+
+.m-img>img { 
+    
+ max-width: 588px; display: block; margin: 200px auto; }
+
+.btn {
+    height:30px;
+    width:30px;
+    cursor:pointer;
+    display: block;
+    text-align:center;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: bold;
+    border-radius:20px;
+    color:#fff;
+    position:absolute;
+    right:50px;
+    top:50px;
+    border:solid 2px #fff;
+}
